@@ -1,0 +1,80 @@
+/* 
+.mainBcg {
+  background-image: url("./NIMT images/main.png");
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.logoSize {
+  height: 30px;
+  width: 50px;
+}
+
+.brightnessControl {
+  filter: brightness(50%);
+}
+
+.bcg {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .bcg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .pickUpSentence {
+    background: red;
+  }
+
+  .logoSize {
+    height: 50px;
+    width: 80px;
+  }
+
+  .loginBox {
+    transform: scale(0.8);
+  }
+
+  .mainContent {
+    transform: translateY(-70px);
+  }
+
+  .sizeControl {
+    height: 530px;
+  }
+
+  .brightnessControl {
+    filter: brightness(70%);
+  }
+}
+@media screen and (min-width: 992px) {
+  .logoSize {
+    height: 70px;
+    width: 110px;
+  }
+
+  .loginBox {
+    transform: scale(0.85);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainContent {
+    transform: translateY(-20px);
+  }
+
+  .sizeControl {
+    height: initial;
+  }
+}
