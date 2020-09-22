@@ -26,6 +26,19 @@
   position: relative;
 }
 
+.pickUpSentence {
+  text-align: center;
+}
+
+.pickUpSentence h2 {
+  font-size: 18px;
+}
+
+.pickUpSentence p {
+  color: grey;
+  text-transform: capitalize;
+}
+
 @media screen and (min-width: 768px) {
   .bcg {
     position: absolute;
@@ -34,7 +47,18 @@
   }
 
   .pickUpSentence {
-    background: red;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  .pickUpSentence h2 {
+    font-size: 40px;
+  }
+
+  .pickUpSentence p {
+    color: #e0e0e0;
+    text-transform: none;
   }
 
   .logoSize {
