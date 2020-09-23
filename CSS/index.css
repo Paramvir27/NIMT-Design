@@ -73,6 +73,19 @@
 .identation {
   transform: translateX(18px);
 }
+
+.buttonPosition {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.buttonPosition a {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.6);
+}
 @media screen and (min-width: 768px) {
   /* .linkTab {
     transform: translateY(-20px);
