@@ -91,10 +91,6 @@
   border-left: 1px solid white;
 }
 
-.placementImages {
-  transform: scale(0.7);
-}
-
 .cards {
   box-shadow: 2px 0px 10px #d0d0d0;
 }
