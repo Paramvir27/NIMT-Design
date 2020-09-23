@@ -90,6 +90,10 @@
 .left-border {
   border-left: 1px solid white;
 }
+
+.placementImages {
+  transform: scale(0.7);
+}
 @media screen and (min-width: 768px) {
   /* .linkTab {
     transform: translateY(-20px);
