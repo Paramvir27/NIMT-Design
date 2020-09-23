@@ -99,6 +99,14 @@
   box-shadow: 2px 0px 10px #d0d0d0;
 }
 
+.cardsEvent {
+  box-shadow: 0px 2px 6px #e0e0e0;
+}
+
+.cardsEvent:hover {
+  box-shadow: 0px 0px 10px #c0c0c0;
+}
+
 .cards:hover {
   box-shadow: 0px 0px 15px #a0a0a0;
 }
